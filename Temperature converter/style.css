@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(112, 128, 144, 0.521);
+}
+
+.header h1 {
+  margin: 4rem;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(177, 29, 29);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#celcius {
+  align-content: center;
+}
+.container {
+  background-color: rgba(112, 128, 144, 0.83);
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  box-shadow: 0px 1px 1px 0px;
+}
+select {
+  width: 80%;
+  height: 80%;
+  margin: 2rem;
+  color: black;
+  font-family: sans-serif;
+  border-radius: 4px;
+  border-color: gray;
+  font-size: 25px;
+  font-weight: 600;
+}
+select option {
+  text-align: center;
+}
+#submit {
+  height: 60px;
+  width: 100px;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 20px;
+  background-color: gray;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+input {
+  font-size: 20px;
+  padding: 20px;
+}
+
+#temp {
+  height: 25px;
+}
+span {
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+}
+#submit:hover {
+  background-color: black;
+  color: white;
+
+  width: 135px;
+}

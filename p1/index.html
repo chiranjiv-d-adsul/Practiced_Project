@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoOdies</title>
+    <link rel="stylesheet" href="/p1/style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="index.js"></script>
+
+</head>
+<body>
+
+    <nav class="nav" id="bar">
+        <a href="/images/logo.png" class="nav-logo"></a>
+
+        <ul>
+            <li>
+                <a href="index.html" class="active">Home</a>
+            </li>
+            <li>
+                <a href="about">About</a>
+            </li>
+            <li>
+                <a href="services">Services</a>
+            </li>
+            <li>
+                <a href="contact_us">Contact_us</a>
+            </li>
+
+
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </li>
+        </ul>
+
+
+    </nav>
+    <div class="container">
+
+        <fieldset class="field"  >
+            <h2>Enter your queries : </h2>
+
+            <form action="action" method="get" >
+
+                <div class="row">
+                    <div class="col-30">
+                        <label for="name">First Name :</label>
+                    </div>
+
+                    <div class="col-70">
+                        <input type="text" id="fname" name="firstname"   placeholder="Your fname..">
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-30">
+                        <label for="fname">Last Name :</label>
+                    </div>
+                    <div class="col-70">
+                        <input type="text" id="lname" name="lastname" placeholder="Your lname..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-30">
+                        <label for="Email id">Email Id :</label>
+                    </div>
+                    <div class="col-70">
+                        <input type="email" id="email" name="email" placeholder="Your email..">
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-30">
+                        <label for="tel">Contact no :</label>
+                    </div>
+                    <div class="col-70">
+                        <input type="tel" id="tel" tel="tel" placeholder="Your phone no..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-30">
+                        <label for="date">Date_Time :</label>
+                    </div>
+                    <div class="col-70">
+                        <input type="datetime-local" class="date" date&time="datetime-local" placeholder="">
+                        <!-- <button id="submit">Enter</button> -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-30">
+                        <label for="person">No of person :</label>
+                    </div>
+
+                    <div class="col-70">
+
+                        <select id="person" name="person">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <button type="submit"  id="submit" value="submit">Submit</button>
+
+
+        </fieldset>
+            </form>
+    </div>
+
+
+    <!-- footer -->
+    <footer>
+           <div class="footer-container">
+                    <div class="footer-1">
+                        <p>
+                            Lorem ipsum dolor sit a<br>
+                            consectetur adipisibr  <br>
+                            Esse magnam impedit id <br>
+                            inventore atque ea ani <br>
+                            fugiat quam,           <br>
+                            obcaecati earum dolorib<br>
+                            sapiente eius dolor p <br>
+                            ium laborum rerum nisi
+                        </p>
+                    </div>
+                    <div class="footer-2">
+                        <a href=""  class="links" >Home</a>
+                        <a href=""  class="links"  >About</a>
+                        <a href=""  class="links"  >Services</a>
+                        <a href="" class="links"   >Contact_us</a>
+                    </div>
+
+                    <div class="footer-3">
+                        <h2>Social links</h2>
+                                    <!-- Facebook -->
+                        <a href="#!"  class="social" role="button">
+                            <img src="/images/facebook.png" height="20px"  alt=""></a>
+
+                        <!-- Instagram -->
+                        <a href="#!"id="social"  role="button">
+                            <img src="/images/instagram.png" height="20px"  alt="">
+                        </a>
+
+                            <!-- twitter -->
+                        <a href="#!" id="social" role="button">
+                            <img src="/images/twitter.png" height="20px" alt="">
+                        </a>
+
+                    </div>
+
+            </div>
+    </footer>
+</body>
+</html>
